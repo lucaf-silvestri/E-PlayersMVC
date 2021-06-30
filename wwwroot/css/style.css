@@ -1,44 +1,51 @@
-:root{
+:root {
     --background: #1e1c21;
     --pink: #fc1e8b;
     --purple: #7278c3;
     --blue: #00a8dc;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: var(--background);
-    font-family: 'Titillium Web','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Titillium Web', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.gradient{
-    background: rgba(213,55,155,1);
-    background: -moz-linear-gradient(left, rgba(213,55,155,1) 0%, rgba(119,117,193,1) 69%, rgba(114,119,195,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(213,55,155,1)), color-stop(69%, rgba(119,117,193,1)), color-stop(100%, rgba(114,119,195,1)));
-    background: -webkit-linear-gradient(left, rgba(213,55,155,1) 0%, rgba(119,117,193,1) 69%, rgba(114,119,195,1) 100%);
-    background: -o-linear-gradient(left, rgba(213,55,155,1) 0%, rgba(119,117,193,1) 69%, rgba(114,119,195,1) 100%);
-    background: -ms-linear-gradient(left, rgba(213,55,155,1) 0%, rgba(119,117,193,1) 69%, rgba(114,119,195,1) 100%);
-    background: linear-gradient(to right, rgba(213,55,155,1) 0%, rgba(119,117,193,1) 69%, rgba(114,119,195,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5379b', endColorstr='#7277c3', GradientType=1 );
+
+.gradient {
+    background: rgba(213, 55, 155, 1);
+    background: -moz-linear-gradient(left, rgba(213, 55, 155, 1) 0%, rgba(119, 117, 193, 1) 69%, rgba(114, 119, 195, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(213, 55, 155, 1)), color-stop(69%, rgba(119, 117, 193, 1)), color-stop(100%, rgba(114, 119, 195, 1)));
+    background: -webkit-linear-gradient(left, rgba(213, 55, 155, 1) 0%, rgba(119, 117, 193, 1) 69%, rgba(114, 119, 195, 1) 100%);
+    background: -o-linear-gradient(left, rgba(213, 55, 155, 1) 0%, rgba(119, 117, 193, 1) 69%, rgba(114, 119, 195, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(213, 55, 155, 1) 0%, rgba(119, 117, 193, 1) 69%, rgba(114, 119, 195, 1) 100%);
+    background: linear-gradient(to right, rgba(213, 55, 155, 1) 0%, rgba(119, 117, 193, 1) 69%, rgba(114, 119, 195, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d5379b', endColorstr='#7277c3', GradientType=1);
 }
-.container{
+
+.container {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-header a{
+header a {
     color: #fff;
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
-.cabecalho{
+.erro {
+    color: var(--pink);
+}
+
+.cabecalho {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -46,16 +53,16 @@ ul{
     box-shadow: 0px 13px 10px rgba(0, 0, 0, 0.5);
 }
 
-.cabecalho ul{
+.cabecalho ul {
     display: flex;
     justify-content: space-around;
 }
 
-.cabecalho nav{
+.cabecalho nav {
     width: 60%;
 }
 
-.banner{
+.banner {
     width: 100%;
     height: 400px;
     background-image: url("../Images/meta_mundo.jpg");
@@ -66,7 +73,8 @@ ul{
     align-items: center;
     font-size: 23px;
 }
-.btn{
+
+.btn {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -74,11 +82,11 @@ ul{
     border-radius: 5px;
 }
 
-.banner .btn{
+.banner .btn {
     margin-top: 230px;
 }
 
-.sobre{
+.sobre {
     background-image: url("../Images/Teams/T6.jpg");
     background-position: center;
     background-size: cover;
@@ -90,41 +98,43 @@ ul{
     padding: 100px 0;
     color: white;
 }
-.sobre .container{
+
+.sobre .container {
     display: flex;
     justify-content: flex-start;
 }
 
-
-.sobre .container div{
+.sobre .container div {
     width: 40%;
 }
 
-.sobre h1{
+.sobre h1 {
     z-index: -3;
 }
 
-.champion{
+.champion {
     position: absolute;
     right: 15%;
     top: 450px;
 }
 
-#horarios{
+#horarios {
     width: 100%;
     min-height: 120px;
     margin: 30px 0px;
     box-shadow: 0px 0px 22px #000000;
-    background: rgba(67,43,95,1);
-    background: -moz-linear-gradient(top, rgba(67,43,95,1) 0%, rgba(30,28,33,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(67,43,95,1)), color-stop(100%, rgba(30,28,33,1)));
-    background: -webkit-linear-gradient(top, rgba(67,43,95,1) 0%, rgba(30,28,33,1) 100%);
-    background: -o-linear-gradient(top, rgba(67,43,95,1) 0%, rgba(30,28,33,1) 100%);
-    background: -ms-linear-gradient(top, rgba(67,43,95,1) 0%, rgba(30,28,33,1) 100%);
-    background: linear-gradient(to bottom, rgba(67,43,95,1) 0%, rgba(30,28,33,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#432b5f', endColorstr='#1e1c21', GradientType=0 );
+    background: rgba(67, 43, 95, 1);
+    background: -moz-linear-gradient(top, rgba(67, 43, 95, 1) 0%, rgba(30, 28, 33, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(67, 43, 95, 1)), color-stop(100%, rgba(30, 28, 33, 1)));
+    background: -webkit-linear-gradient(top, rgba(67, 43, 95, 1) 0%, rgba(30, 28, 33, 1) 100%);
+    background: -o-linear-gradient(top, rgba(67, 43, 95, 1) 0%, rgba(30, 28, 33, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(67, 43, 95, 1) 0%, rgba(30, 28, 33, 1) 100%);
+    background: linear-gradient(to bottom, rgba(67, 43, 95, 1) 0%, rgba(30, 28, 33, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#432b5f', endColorstr='#1e1c21', GradientType=0);
 }
-.ao_vivo, .em_breve{
+
+.ao_vivo,
+.em_breve {
     border-left: solid 1px var(--purple);
     color: white;
     padding: 0 30px;
@@ -133,116 +143,131 @@ ul{
     align-items: center;
 }
 
-.partida img{
+.partida img {
     width: 40px;
     padding: 0px 15px;
 }
 
-.partida{
+.partida {
     padding: 0px 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#horarios .container{
+#horarios .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 0;
 }
 
-#horarios h2{
+#horarios h2 {
     margin: 0px 15px;
 }
 
-.em_breve{
+.em_breve {
     width: 65%;
 }
-.content{
+
+.content {
     display: flex;
     color: white;
 }
-.noticias{
+
+.noticias {
     width: 70%;
     padding-right: 40px;
     display: flex;
     flex-flow: wrap;
 }
-.card{
+
+.card {
     width: 28%;
     margin: 2%;
     box-shadow: 0px 2px 6px #000000;
-    background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(30,28,33,1) 35%, rgba(30,28,33,1) 
-100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(30, 28, 33, 1) 35%, rgba(30, 28, 33, 1) 100%);
 }
-.card img{
+
+.card img {
     width: 100%;
     height: 140px;
 }
 
-.card h4{
+.card h4 {
     padding: 1em 0 0 1em;
 }
-.card p{
+
+.card p {
     font-size: 0.8em;
     Padding: 1em;
 }
-.resultado{
+
+.resultado {
     margin: 2em 0;
     text-align: center;
 }
-.resultado img{
+
+.resultado img {
     width: 35px;
 }
-.recentes{
+
+.recentes {
     padding: 1.5em;
     text-align: center;
     box-shadow: 0px 2px 6px #000000;
-    background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(30,28,33,1) 35%, rgba(30,28,33,1) 
-100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(30, 28, 33, 1) 35%, rgba(30, 28, 33, 1) 100%);
 }
-.placar{
+
+.placar {
     font-size: 1.5em;
     text-shadow: 3px 3px 6px #000000;
 }
-footer{
+
+footer {
     box-shadow: 0px 0px 10px black;
     color: white;
     margin-top: 30px;
-    background: rgb(0,0,0);
+    background: rgb(0, 0, 0);
 }
-footer a{
+
+footer a {
     color: white;
     text-decoration: none;
 }
-footer ul{
+
+footer ul {
     list-style-type: none;
 }
-footer .sociais{
+
+footer .sociais {
     display: flex;
     justify-content: space-evenly;
     color: var(--purple);
     font-size: 2em;
     padding: 1.2em 0px;
 }
-footer .container{
+
+footer .container {
     display: flex;
     justify-content: space-between;
     padding: 2em;
 }
-footer h5{
+
+footer h5 {
     padding-bottom: 1.2em;
     color: #474747;
     font-size: 1.7em;
 }
-footer h6{
+
+footer h6 {
     text-align: end;
     font-size: 1em;
 }
-footer p{
+
+footer p {
     text-align: center;
     color: #474747;
 }
@@ -250,7 +275,7 @@ footer p{
 
 /* Página de Cadastro */
 
-.titulo_pagina{
+.titulo_pagina {
     text-transform: uppercase;
     background-image: url("../Images/cadastro.png");
     width: 100%;
@@ -262,7 +287,8 @@ footer p{
     justify-content: center;
     padding-top: 5em;
 }
-.cadastro{
+
+.cadastro {
     margin: auto;
     width: 100%;
     max-width: 440px;
@@ -274,21 +300,24 @@ footer p{
     padding: 1.5em;
     margin-bottom: 3em;
 }
-.campo{
+
+.campo {
     display: flex;
     justify-content: space-between;
     width: 100%;
     color: white;
     margin-bottom: 0.5em;
 }
-fieldset{
+
+fieldset {
     color: white;
 }
+
 input[type="text"],
 input[type="email"],
 input[type="password"],
 input[type="date"],
-select{
+select {
     border: none;
     background-color: #1e1c21;
     color: #ccc;
@@ -296,228 +325,238 @@ select{
     width: 60%;
     padding: 0.5em;
 }
-input:focus, select:focus{
+
+input:focus,
+select:focus {
     outline: none;
     background-color: #474747;
     box-shadow: 0px 0px 5px #474747;
     border-bottom: 1px solid var(--purple)
 }
-input[type="date"]{
+
+input[type="date"] {
     text-align: center;
     font-size: 1.3em;
 }
-.cadastro button{
+
+.cadastro button {
     border: none;
     margin: 40px;
     width: 60%;
     cursor: pointer;
 }
-fieldset{
+
+fieldset {
     border: none;
     padding: 1em;
     width: 100%;
 }
-fieldset label{
+
+fieldset label {
     text-transform: none;
     margin-right: 0.2em;
 }
-.termos{
+
+.termos {
     align-items: center;
     justify-content: start;
     padding: 1em;
 }
-.termos label{
+
+.termos label {
     text-transform: none;
     margin-left: 0.5em;
-    
 }
-.cabecalho .fa-bars{
+
+.cabecalho .fa-bars {
     color: var(--purple);
     font-size: 2em;
-     /* margin-left: 2em;   */
-    /* padding: 0.5em; */ 
+    /* margin-left: 2em;   */
+    /* padding: 0.5em; */
     display: none;
-
 }
 
-table{
+table {
     color: white;
     width: 50%;
     margin: 0 auto;
     border-collapse: collapse;
 }
 
-table td, table th{
+table td,
+table th {
     border: solid 1px #7377C2;
     padding: 5px;
     text-align: center;
 }
 
-table img{
+table img {
     max-width: 50px;
 }
 
-@media screen and (max-width: 1200px){
-    .champion{        
+@media screen and (max-width: 1200px) {
+    .champion {
         right: 3%;
         width: 50%;
     }
-    .sobre .container div{
+    .sobre .container div {
         width: 47%;
     }
-    .container{
+    .container {
         width: 95%;
     }
     #horarios .container {
         flex-direction: column;
     }
-    .em_breve, .ao_vivo{
+    .em_breve,
+    .ao_vivo {
         border: none;
     }
+}
 
-}/*Fim media mas 1200px  */
 
-@media screen and (max-width: 768px){
-    header img{
+/*Fim media mas 1200px  */
+
+@media screen and (max-width: 768px) {
+    header img {
         max-width: 180px;
     }
-    .container{
+    .container {
         width: 98%;
     }
-    .champion{
+    .champion {
         right: -12%;
         top: 580px;
         width: 450px;
     }
-    .sobre .container div{
+    .sobre .container div {
         width: 55%;
         margin-left: 28px;
-
     }
-    .ao_vivo{
+    .ao_vivo {
         padding: 5.3em 5px;
         width: 50%;
         flex-wrap: wrap;
     }
-    .em_breve{
+    .em_breve {
         width: 50%;
         flex-wrap: wrap;
-
     }
-    .em_breve, .partida{
+    .em_breve,
+    .partida {
         margin: 0.5em 0;
     }
-/* Seção noticias */
-    .noticias{
+    /* Seção noticias */
+    .noticias {
         flex-direction: column;
     }
-    .card{
+    .card {
         display: flex;
         width: 100%;
     }
-    .card img{
+    .card img {
         width: 30%;
     }
-    footer .container{
+    footer .container {
         width: 90%;
         margin: 0 auto;
         padding: 0;
     }
-    .mob_logo_sociais{
+    .mob_logo_sociais {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    .mob_logo_sociais img{
+    .mob_logo_sociais img {
         max-width: 200px;
     }
-} /* Fim media mas 768px */
+}
 
-@media screen and (max-width: 460px){
-    .cabecalho .fa-bars{
+
+/* Fim media mas 768px */
+
+@media screen and (max-width: 460px) {
+    .cabecalho .fa-bars {
         display: block;
     }
     /* Champion ocultado no mobile */
-    .champion{
+    .champion {
         display: none;
         right: -12%;
         top: 580px;
         width: 450px;
     }
-    #menu{
-        position: absolute; 
+    #menu {
+        position: absolute;
         top: 72px;
         background-color: #1e1c21;
         width: 100%;
         display: none;
     }
-    .cabecalho div{
-       display: flex;
-       justify-content: space-between;
-       width: 100%;
-       align-items: center;
-       padding: 0 2em;
+    .cabecalho div {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        padding: 0 2em;
     }
-    .cabecalho ul a{
+    .cabecalho ul a {
         padding: 0.5em 60% 1em 2.5em;
         margin: 0.1em 0;
-        
     }
-    .cabecalho ul{
+    .cabecalho ul {
         flex-direction: column;
         height: 250px;
     }
-    .sobre .container div{
+    .sobre .container div {
         width: 85%;
     }
-    .sobre h1{
+    .sobre h1 {
         text-align: center;
         margin-bottom: 1em;
     }
-    .sobre p{
+    .sobre p {
         text-align: justify;
     }
-    #horarios .container{
+    #horarios .container {
         flex-direction: column;
     }
-    .ao_vivo, .em_breve{
+    .ao_vivo,
+    .em_breve {
         padding: 1em;
         border: none;
-        
     }
-    
-    .partida{
+    .partida {
         margin: 1em 0;
     }
-   .card{
-       flex-direction: column;
-       
-   }
-   .card img{
-       width: 100%;
-       object-fit:cover ;
-       object-position: top;
-   }
-   .noticias{
-       padding-right: 15px;
-       width: 95%;
-       
-   }
-   .recentes{
-       padding: 0.5em;
-   }
-   .content{
-       flex-direction: column;
-   }
-   footer .container{
-       flex-direction: column;
-   }
-   footer h6{
-    text-align: start;
-   }
-   .mob_logo_sociais{
-       padding: 15px;
-   }
-   
-  
-} /* Fim media mas 460px*\
+    .card {
+        flex-direction: column;
+    }
+    .card img {
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+    .noticias {
+        padding-right: 15px;
+        width: 95%;
+    }
+    .recentes {
+        padding: 0.5em;
+    }
+    .content {
+        flex-direction: column;
+    }
+    footer .container {
+        flex-direction: column;
+    }
+    footer h6 {
+        text-align: start;
+    }
+    .mob_logo_sociais {
+        padding: 15px;
+    }
+}
+
+
+/* Fim media mas 460px*\

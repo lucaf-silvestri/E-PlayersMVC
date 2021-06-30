@@ -40,3 +40,4 @@ C:\Users\Maracelo\Documents\Senai\E-PlayersMVC\obj\Debug\net5.0\E-PlayersMVC.gen
 C:\Users\Maracelo\Documents\Senai\E-PlayersMVC\obj\Debug\net5.0\E-PlayersMVC.csproj.CopyComplete
 C:\Users\Maracelo\Documents\Senai\E-PlayersMVC\obj\Debug\net5.0\Razor\Views\Equipe\Index.cshtml.g.cs
 C:\Users\Maracelo\Documents\Senai\E-PlayersMVC\obj\Debug\net5.0\Razor\Views\Jogador\Index.cshtml.g.cs
+C:\Users\Maracelo\Documents\Senai\E-PlayersMVC\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
